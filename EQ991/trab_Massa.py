@@ -1,6 +1,6 @@
 import numpy as np
 import math
-import trabalho_func as trab
+import trab_energia as trab
 
 #Constantes Calculadas (SI):
 v_agua = (100000/18.02)*(1000/3600) #kg/s

@@ -1,4 +1,4 @@
-import trabalho_func as energia
+import trab_energia as energia
 import trab_Massa as massa
 10
 #Entrada -> Número de estágios // 
