@@ -21,7 +21,7 @@ def energia(estag):
         matriz[i,1]= -(v_agua*Cp_agua+v_ar*Cp_ar)           #B_i
         matriz[i,2]= v_agua*Cp_agua                         #C_i
         matriz[i,3]=  0                                     #D_i   
-        matriz[i,4]=matriz[i,2]/(matriz[i,1]-matriz[i,0]*matriz[i-1,4])                            #P_i
+        matriz[i,4]=matriz[i,2]/(matriz[i,1]-matriz[i,0]*matriz[i-1,4])                              #P_i
         matriz[i,5]=(matriz[i,3]-matriz[i,0]*matriz[i-1,5])/(matriz[i,1]-matriz[i,0]*matriz[i-1,4])  #Q_i
 
     for j in range(estag,0,-1):   #Interativo
