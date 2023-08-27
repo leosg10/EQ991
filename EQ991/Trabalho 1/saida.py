@@ -1,6 +1,6 @@
 import trab_energia as energia
 import trab_massa as massa
-10
+
 #Entrada -> Número de estágios // 
 estag=int(input('Digite número de pratos: '))        
 
