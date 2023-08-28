@@ -14,4 +14,4 @@ for k in range(1,estag+1):
 print('\n   ****** CONCENTRAÇÃO CH3CL CADA PRATO ******')
 matriz2=massa.massa(estag)
 for k in range(1,estag+1): 
-    print('  A concentração do organoclorado no prato {} é {:.8f} na água e {:.8f} no ar.'.format(k,matriz2[k,6],matriz2[k,6]))
+    print('  A concentração do organoclorado no prato {} é {:.8f} na água e {:.8f} no ar.'.format(k,matriz2[k,6],matriz2[k,7]))
