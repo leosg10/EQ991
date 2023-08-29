@@ -19,10 +19,12 @@ def P_sat(t):
     x=1-(t+273.15)/tc
     p=pc*math.exp((1/(1-x))*(-6.86672*x+1.52273*x**1.5-1.92919*x**3-2.61459*x**6))
     return p
+    
 def y_inf (t):
     y_20= 1.265+0.64+0.073
     y=10**((20+273.15)/(t+273.15)*y_20)
     return y
+    
 def K (t):
     K=P_sat(t)*y_inf(t)/po
     return K
