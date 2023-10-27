@@ -12,10 +12,10 @@ tau_3 = 20
 k = 0.15
 
 # Valores para diferentes passos de integração
-E_1 = main.Euler(main.Sistema,40,C_a1,C_a2,C_a3,1)     # Passo 1 minuto 
-E_2 = main.Euler(main.Sistema,20,C_a1,C_a2,C_a3,2)     # Passo 2 minutos
-E_5 = main.Euler(main.Sistema,8,C_a1,C_a2,C_a3,5)      # Passo 5 minutos
-E_10 = main.Euler(main.Sistema,4,C_a1,C_a2,C_a3,10)    # Passo 10 minutos
+E_1 = main.Euler(main.Sistema, 40, C_a1, C_a2, C_a3,1)     # Passo 1 minuto 
+E_2 = main.Euler(main.Sistema, 20, C_a1, C_a2, C_a3,2)     # Passo 2 minutos
+E_5 = main.Euler(main.Sistema, 8, C_a1, C_a2, C_a3,5)      # Passo 5 minutos
+E_10 = main.Euler(main.Sistema, 4, C_a1, C_a2, C_a3,10)    # Passo 10 minutos
 
 
 # Gráficos
