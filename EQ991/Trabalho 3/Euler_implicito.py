@@ -12,10 +12,10 @@ tau_3 = 20
 k = 0.15
 
 # Valores para diferentes passos de integração
-EI_1 = main.Euler_implicito(40,C_a1,C_a2,C_a3,1)     # Passo 1 minuto 
-EI_2 = main.Euler_implicito(20,C_a1,C_a2,C_a3,2)     # Passo 2 minutos
-EI_5 = main.Euler_implicito(8,C_a1,C_a2,C_a3,5)     # Passo 5 minutos
-EI_10 = main.Euler_implicito(4,C_a1,C_a2,C_a3,10)   # Passo 10 minutos
+EI_1 = main.Euler_implicito(40, C_a1, C_a2, C_a3, 1)     # Passo 1 minuto 
+EI_2 = main.Euler_implicito(20, C_a1, C_a2, C_a3, 2)     # Passo 2 minutos
+EI_5 = main.Euler_implicito(8, C_a1, C_a2, C_a3, 5)     # Passo 5 minutos
+EI_10 = main.Euler_implicito(4, C_a1, C_a2, C_a3, 10)   # Passo 10 minutos
 
 
 # Gráficos
